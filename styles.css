@@ -1,12 +1,12 @@
 *{ /*Universal*/
-    margin: 0%; /*margem*/
+    margin: 100; /*margem*/
     padding: 0%; /*espaçamento interno*/
 }
 
 
 
 img{
-    height:92px ;  /*altura*/
+    height: 100px;  /*altura*/
 }
 a{
     text-decoration: none; /*tirar decoração do texto*/
@@ -28,4 +28,10 @@ a{
 }
 footer{
     background-color: #f2f2f2;
+}
+.caixa-rodape{
+    padding: #F2F2F2;
+}
+.caixa-rodape--borda{
+    border-bottom: 1px solid #dadce0
 }
