@@ -1,10 +1,15 @@
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 14px;
+}
 *{ /*Universal*/
     margin: 100; /*margem*/
-    padding: 0%; /*espaçamento interno*/
+    
+    
 }
-
-
-
 img{
     height: 100px;  /*altura*/
 }
@@ -13,12 +18,13 @@ a{
      color: #1f1f1f; /*cor do texto*/
      font-size: 13px; /*tamanho da fonte*/
      font-family: sans-serif; /*tipo/familia*/
+     
 }
 .botao-login{
     background-color: #1a73e8;
     color: white;
     padding: 13px 12px;
-    font-weight: 500;
+    font-family:sans-serif ;
     border-radius: 40px;
 }
 .icone-produtos{
@@ -31,7 +37,13 @@ footer{
 }
 .caixa-rodape{
     padding: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
 }
 .caixa-rodape--borda{
     border-bottom: 1px solid #dadce0
+}
+.caixa-links{
+    display: flex;
+    gap: 30px;
 }
