@@ -1,15 +1,10 @@
-header{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 15px;
-    padding: 10px 14px;
-}
+
 *{ /*Universal*/
-    margin: 100; /*margem*/
-    
+    margin: 0; /*margem*/
+    padding: 0;
     
 }
+ 
 img{
     height: 100px;  /*altura*/
 }
@@ -18,20 +13,48 @@ a{
      color: #1f1f1f; /*cor do texto*/
      font-size: 13px; /*tamanho da fonte*/
      font-family: sans-serif; /*tipo/familia*/
-     
 }
-.botao-login{
-    background-color: #1a73e8;
-    color: white;
-    padding: 13px 12px;
-    font-family:sans-serif ;
-    border-radius: 40px;
-}
-.icone-produtos{
-    width:24px ; /*largura*/
-    fill: #444746; /*cor preenchimento*/
 
+
+/*MAIN*/
+.caixa-pesquisa{
+    display:flex;
+    width: 583px; /*LARGURA*/
+    padding: 10px 14px;
+    align-items: center;
+    gap: 13px;
+    border: 1px solid #dfe1e5;
+    border-radius:100px ;
+    
 }
+.icone-icones{
+    display: flex; 
+    align-items:center; /*ALINHADO NA VERTICAL*/
+    gap: 16px; /*ESPAÇAMENTO ENTRE OS ITENS*/
+}
+.input-pesquisa{
+    width:100%; /*OCUPAR 100% DA LARGURA DISPONIVEL*/
+    border:none; /*BORDA NENHUMA*/
+    outline: none; /*SOMBREAMENTO QUANDO SELECIONADO NENHUM9*/
+}
+.icone-lupa{
+    width: 20px; /*largura*/
+    /*preenchimento*/
+    fill: #9aa0a6;
+}
+.icone-teclado{
+    width:20px; /*LARGURA*/
+    height:14px; /*ALTURA*/
+}
+.icone-colorido{
+    width: 24px; /*LARGURA*/
+    height: 14PX;
+}
+
+
+
+
+/*rodape*/
 footer{
     background-color: #f2f2f2;
 }
@@ -40,10 +63,36 @@ footer{
     display: flex;
     justify-content: space-between;
 }
+
 .caixa-rodape--borda{
     border-bottom: 1px solid #dadce0
 }
+
 .caixa-links{
     display: flex;
     gap: 30px;
 }
+
+
+/* Cabeçalho*/
+header{ 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 14px;
+}
+
+.botao-login{ /*Classe botão-login*/
+    background-color: #1a73e8;
+    color: white;
+    padding: 13px 12px;
+    font-family:sans-serif ;
+    border-radius: 40px;
+}
+
+.icone-produtos{ /* Classe icone-produtos*/
+    width:24px ; /*largura*/
+    fill: #444746; /*cor preenchimento*/
+}
+
